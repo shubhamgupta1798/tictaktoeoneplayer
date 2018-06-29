@@ -424,6 +424,8 @@ int e2;
                         if (ch[1] == 1) {
 
                             e2= play1(0);
+                            if(e2==1)
+                                return;
                         }  if (ch[0] == 1) {
 
                             e2= play1(1);
